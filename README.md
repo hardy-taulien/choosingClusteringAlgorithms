@@ -10,6 +10,7 @@ The application was written in Python using the plotly-dash framework to create 
 The original use case is bank customer data with millions of rows of data but for the sake of demonstration in this open source repository, Northwind data is used.
 # Use
 In order to use the application, a data source needs to be provided. The application is exemplarily set to use data from a local mssql northwind data base that can be created by following this guide: https://parallelcodes.com/install-and-attach-northwind-database-in-sql-management-studio/ 
+
 After Launching (I suggest Debug mode, since it's easier to shutdown), the web interface will be reachable at http://127.0.0.1 as is displayed in the console. In its current state, the application will take a few seconds to few minutes to display results based on the chosen parameterization. At the top of the Webpage, the chosen algorithm can be seen.
 # How to contribute
 With the somewhat modular implementation of scores, additional features can be added, scores can be modified or removed etc. without much changing of the rest of the algorithm. Some of the scores of the current implementation lack use or need to be reworked. 
